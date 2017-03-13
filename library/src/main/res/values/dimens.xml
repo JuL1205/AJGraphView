@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="axis_text_margin">10dp</dimen>
+
+    <dimen name="graph_margin">5dp</dimen>
+
+    <dimen name="bar_graph_line_width">1dp</dimen>
+    <dimen name="bar_graph_width">25dp</dimen>
+
+    <dimen name="line_graph_width">1dp</dimen>
+    <dimen name="line_graph_padding">5dp</dimen>
+    <dimen name="line_graph_point_radius">3dp</dimen>
+    <dimen name="line_graph_point_selected_radius">6dp</dimen>
+</resources>
