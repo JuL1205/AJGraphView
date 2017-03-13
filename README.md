@@ -2,6 +2,8 @@
 Android GraphView Library & Sample App
 
 
+![AJGraphView Sample](https://raw.githubusercontent.com/JuL1205/AJGraphView/master/images/screenshot.gif)
+
 # Usage
 
 For a working implementation of this project see the `app/` folder.
