@@ -2,6 +2,21 @@
 Android GraphView Library & Sample App
 
 
+# Usage
+
+For a working implementation of this project see the `app/` folder.
+
+* CircleGraph
+```java
+ List<CircleGraphModel> datas = new ArrayList<>();
+ datas.add(new CircleGraphModel(49, 0xffff8888, "여성"));
+ datas.add(new CircleGraphModel(51, 0xff8888ff, "남성"));
+ circleGraphView = (CircleGraphView) findViewById(R.id.circle_view);
+ circleGraphView.setData(datas);
+```
+
+
+
 
 
 
