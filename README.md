@@ -24,7 +24,14 @@ For a working implementation of this project see the `app/` folder.
  barGraphView.setData(datas);
 ```
 
-
+* LineGraph
+```java
+ List<LineGraphModel> datas = new ArrayList<>();
+ for(int i = 0 ; i < 24 ; i++){
+     datas.add(new LineGraphModel((i+1)*random.nextFloat(), (i+1)*random.nextFloat(), ""+i));
+ }
+ lineGraphView.setData(datas);
+```
 
 
 # License
