@@ -1,4 +1,25 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.novoda:bintray-release:0.3.4'
+    }
+}
+
+publish {
+    userOrg = 'jul'
+    groupId = 'com.funtory.jul'
+    artifactId = 'aj-graphview'
+    publishVersion = '1.0.0'
+    desc = 'Graph View for Android'
+    website = 'https://github.com/JuL1205/AJGraphView'
+    issueTracker = "${website}/issues"
+    repository = "${website}.git"
+}
 
 android {
     compileSdkVersion 25
